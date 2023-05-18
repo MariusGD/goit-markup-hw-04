@@ -52,7 +52,9 @@ p {
 }
 
 .container {
-  width: 1200px;}
+max-width: auto;
+}
+  
 
 body {
   font-family: var(--site-font);
@@ -160,6 +162,7 @@ body {
 .footer {
   background-color: var(--background-color-one);
   max-width: 1600px;
+  width: auto;
 }
 .hero {
   height: 600px;
@@ -412,9 +415,11 @@ body {
 
 /* Footer section */
 .footer {
-  width: 1600px;
+  max-width: 1600px;
+  width: auto;
   left: 0px;
   top: 2097px;
+
 }
 
 .logo-footer {
@@ -620,18 +625,24 @@ body {
   padding: 20px 24px;
   border: 1px solid #eeeeee;
   border-top: none;
+  width: fit-content;
 }
 
 /* Regular Customers */
 .customers {
   display: flex;
+  max-width: 1600px;
+  width: 70%;
 }
+
 .item-customer {
   display: flex;
-  margin-right: 215px;
-  margin-left: 215px;
-  gap: 30px;
-  padding-bottom: 94px;
+  margin-right: 10%;
+  margin-left: 10%;
+  gap: 2vw;
+  padding-bottom: 2vh;
+  max-width: 1200px;
+  width: 70%;
 }
 
 .link-customer {
